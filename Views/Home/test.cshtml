@@ -1,0 +1,84 @@
+﻿@{
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+<style type="text/css">
+    #banner {
+        background-image: url('../../content/images/banner.png');
+        background-size: cover;
+        background-position: center;
+        height:500px;
+        max-width:100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color:floralwhite;
+    }
+    .banner-content{
+        text-align: center;
+        color:white;
+    }
+    .banner-content h2{
+        font-size:1.5rem;
+        margin-top: 10px;
+    }
+    .banner-content p{
+        font-size:1.2rem;
+    }
+    .btn{
+        display:inline-block;
+        padding: 7px;
+        background-color:saddlebrown;
+        color:white;
+        text-decoration:none;
+        font-weight:bold;
+    }
+    .product_item img{
+        height:212px;
+        width:212px;
+    }
+</style>
+<section id="banner">
+    <div class="banner-content">
+        <h2>Chào mừng đến với thế giời gấu bông</h2>
+        <p>Hãy trải nghiệm các bé gấu bông của cửa hàng chúng tôi  </p>
+        <a href="#    " class="btn">Mua sắm </a>
+    </div>
+</section>
+<section id="content">
+    <div id="search" class="content_section"></div>
+    <div id="featureProd" class="content_section">
+        <h2>Sản phẩm nổi bật </h2>
+        <div class="product_item">
+            <img src="~/Content/images/Gau Cabybara.jpg" />
+        </div>
+
+
+        <div class="product_item">
+            <img src="~/Content/images/ca map baby shark.jpg" />
+        </div>
+
+        <div class="product_item">
+            <img src="~/Content/images/capybara mui hong.jpg" />
+        </div>
+
+        <div class="product_item">
+            <img src="~/Content/images/meo mun mat quao.jpg" />
+        </div>
+
+        <div class="product_item">
+            <img src="~/Content/images/meo bong xam.jpg" />
+        </div>
+
+        <div class="product_item">
+            <img src="~/Content/images/khung long baby long min.jpg" />
+        </div>
+
+        <div class="product_item">
+
+        </div>
+    </div>
+    <div id="productList" class="content_section"></div>
+
+</section>
+
+
